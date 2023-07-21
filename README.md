@@ -1,2 +1,2 @@
 # FAPSoftex
-Resolvendo as atividades do curso
+Solucionando os problemas apresentados pelo curso.

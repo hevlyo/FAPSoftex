@@ -18,4 +18,4 @@ Ao se ausentar, o professor notou que em duas linhas a proporção passou para 3
 
 Como podemos ver na ilustração abaixo a troca ocorreu nas linhas 3 e 5 e na coluna 3 e 4.
 
-![image](/Assets/Ilustracao_02.png) ![image](/Assets/Ilustracao_03.png)
+![Resolucao](Assets/resolucao.gif)

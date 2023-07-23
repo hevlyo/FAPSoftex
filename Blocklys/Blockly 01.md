@@ -1,8 +1,12 @@
+## Código em inglês
 ![EN](./Assets/Blockly_01_EN.png)
+## Algor em português brasileiro
 ![PT-BR](./Assets/Blockly_01_PT-BR.png)
 
 link de acesso: https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pt-br#di5ygw
 
+
+## Código em javascript:
 ```javascript
 var Nota_01, Nota_02, Nota_Final;
 

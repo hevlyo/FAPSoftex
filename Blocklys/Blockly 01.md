@@ -4,6 +4,8 @@ No hipertexto anterior, temos um exemplo de um fluxograma que realiza o cálculo
 
 Utilizando o Google Blockly construa o algoritmos que realiza esse processamento.
 
+![fluxograma](https://media.slid.es/uploads/886439/images/10624821/pasted-from-clipboard.png)
+
 # Resolução
 ## Algoritmo em inglês
 ![EN](./Assets/Blockly_01_EN.png)

@@ -14,8 +14,8 @@ Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu
 
 Depois de organizar a sala com a chegada de 11 novos alunos, a proporção de alunos em uma mesma matéria por linha e coluna é igual a 2 ou 4.
 
-Ao se ausentar, o professor notou que em duas linhas a proporção passou para 3 e 3, explicitando que houve uma troca entre um aluno de português e um de matématica.
+Ao se ausentar, o professor notou que em duas colunas a proporção passou para 3 e 3 em duas linhas e a proporção foi para 1 e 3 em duas colunas, explicitando que houve uma troca entre um aluno de português e um de matématica.
 
-Como podemos ver na ilustração abaixo a troca ocorreu nas linhas 3 e 5 e na coluna 3 e 4.
+Como podemos ver na ilustração abaixo a troca ocorreu nas linhas 3 e 4 e nas colunas 3 e 5.
 
 ![Resolucao](Assets/resolucao.gif)

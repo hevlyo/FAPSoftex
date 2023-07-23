@@ -1,9 +1,9 @@
-## Código em inglês
+## Algoritmo em inglês
 ![EN](./Assets/Blockly_01_EN.png)
-## Algor em português brasileiro
+## Algoritmo em português brasileiro
 ![PT-BR](./Assets/Blockly_01_PT-BR.png)
 
-link de acesso: https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pt-br#di5ygw
+## link de acesso: https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pt-br#di5ygw
 
 
 ## Código em javascript:

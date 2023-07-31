@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const readline = require('readline-sync');
 
 function calculadora(num1, num2, operacao) {
     switch (operacao) {
@@ -15,8 +15,8 @@ function calculadora(num1, num2, operacao) {
     }
 }
 
-const num1 = parseFloat(prompt('Insira o primeiro número: '));
-const num2 = parseFloat(prompt('Insira o segundo número: '));
-const operacao = parseInt(prompt('Insira o número da operacao: '));
+const num1 = readline.questionFloat('Insira o primeiro número: ');
+const num2 = readline.questionFloat('Insira o segundo número: ');
+const operacao = readline.questionInt('Insira o número da operacao: ');
 
 console.log(calculadora(num1, num2, operacao));

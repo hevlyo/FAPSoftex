@@ -9,9 +9,9 @@ No final, imprima os valores das variáveis.
 # Resolução
 ## Algoritmo
 
-![PT-BR](https://i.imgur.com/304pEe1.png)
+![PT-BR](https://i.imgur.com/q11sdvS.png)
 
-- link de acesso: https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pt-br#dbg24w
+- link de acesso: https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pt-br#rds5do
 
 
 ## Código em javascript:

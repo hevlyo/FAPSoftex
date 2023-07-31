@@ -15,7 +15,7 @@ let votoBranco = 0;
 while (true) {
     console.log('TÁ NA HORA DE VOTAR');
     console.log('Escolha seu voto:\n889 para o candidato X\n847 para o candidato Y\n515 para o candidato Z\n0 para votar branco.');
-    const voto = parseInt(readline.question(''));
+    const voto = readline.questionInt('');
     if (voto === candidatos.candidato_X) {
         votoX += 1;
         console.log('Voto computado para o candidato X.')
@@ -34,7 +34,7 @@ while (true) {
         console.log('Voto inválido, vote novamente.\n');
     }
 
-    const saida = Number(readline.question('Quer sair da votação? 1. para sair, 2. para não\n'));
+    const saida = readline.questionFloat('Quer sair da votacao? 1. para sair, 2. para nao\n');
     if (saida === 1) {
         break;
     }

@@ -7,10 +7,11 @@ A atividade que faremos é a da “calculadora de média”. Para isso, você de
 ### Trecho de Código (em javascript)
 
 ```javascript
+const readline = require('readline-sync');
 const notas = [];
 
 for (let i = 0; i < 3; i++) {
-    const nota = parseFloat(prompt(`Insira a nota ${i + 1} (entre 0 e 10):`));
+    const nota = parseFloat(readline.question(`Insira a nota ${i + 1} (entre 0 e 10): `));
     if (isNaN(nota) || nota < 0 || nota > 10) {
         console.log("Nota inválida. Por favor, insira uma nota entre 0 e 10.");
         break;

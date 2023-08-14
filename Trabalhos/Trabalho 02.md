@@ -4,7 +4,7 @@ Estamos rodeados por dados no nosso cotidiano e, nas aulas, aprendemos sobre os 
 
 ## Resolução
 
-### Trecho de Código
+### Trecho de Código (em javascript)
 
 ```javascript
 // Criando variáveis com valores UNDEFINED (sem atribuições)

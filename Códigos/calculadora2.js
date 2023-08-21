@@ -2,14 +2,17 @@ const readline = require('readline-sync');
 
 function calculadora(num1, num2, operacao) {
     switch (operacao) {
-        case 1:
+        case '+':
             return num1 + num2;
-        case 2:
+        case '-':
             return num1 - num2;
-        case 3:
+        case '*':
             return num1 * num2;
-        case 4:
-            return num1 / num2;
+        case '/':
+            const resultado =
+            {divisao: num1 / num2,
+            sobra: num1 % num2};
+            return resultado;
         default:
             return 0;
     }
@@ -17,7 +20,7 @@ function calculadora(num1, num2, operacao) {
 
 const num1 = readline.questionFloat('Insira o primeiro número: ');
 const num2 = readline.questionFloat('Insira o segundo número: ');
-console.log('Escolha o numero da operacao que deseja executar: \n 1. soma\n 2. subtracao\n 3. multiplicao\n 4. divisao');
-const operacao = readline.questionInt('Insira o número da operacao: ');
+const operacao = readline.question('Escolha um operador (+, -, *, /): ');
 
-console.log(`O resultado da operação é: ${calculadora(num1, num2, operacao)}`);
+console.log(`O resultado da operação é: `);
+console.log(calculadora(num1, num2, operacao));

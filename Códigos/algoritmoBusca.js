@@ -22,8 +22,7 @@ const valorBuscado = 20;
 
 const indice = buscaBinaria(array.sort((a, b) => a - b), valorBuscado);
 
-if (indice !== -1) {
-  console.log(`O valor ${valorBuscado} foi encontrado no índice ${indice} do array.`);
-} else {
-  console.log(`O valor ${valorBuscado} não foi encontrado no array.`);
-}
+(indice !== -1) ? 
+console.log(`O valor ${valorBuscado} foi encontrado no índice ${indice} do array.`) : 
+console.log(`O valor ${valorBuscado} não foi encontrado no array.`);
+

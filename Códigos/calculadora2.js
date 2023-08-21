@@ -9,10 +9,12 @@ function calculadora(num1, num2, operacao) {
         case '*':
             return num1 * num2;
         case '/':
-            const resultado =
-            {divisao: num1 / num2,
-            sobra: num1 % num2};
-            return resultado;
+            const divisao = num1 / num2;
+            const sobra = num1 % num2;
+            return {
+                divisao: divisao.toFixed(2),
+                sobra: sobra.toFixed(2)
+            };
         default:
             return 0;
     }

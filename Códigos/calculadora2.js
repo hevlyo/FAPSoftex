@@ -22,7 +22,7 @@ function calculadora(num1, num2, operacao) {
 
 const num1 = readline.questionFloat('Insira o primeiro número: ');
 const num2 = readline.questionFloat('Insira o segundo número: ');
-const operacao = readline.question('Escolha um operador (+, -, *, /): ');
+const operacao = readline.question('Digite o operador desejado:\n+ Soma;\n- Subtração;\n* Multiplicação;\n/ Divisão:\n');
 
 console.log(`O resultado da operação é: `);
 console.log(calculadora(num1, num2, operacao));

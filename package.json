@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
     "prompt-sync": "^4.2.0",
     "readline-sync": "^1.4.10"
   },
@@ -7,7 +9,6 @@
   "description": "Solucionando os problemas apresentados pelo programa na trilha Back-end.",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

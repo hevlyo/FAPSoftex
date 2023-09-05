@@ -8,5 +8,5 @@ function ehParOuImpar(numero) {
     }
 }
 
-numero = readline.questionInt("Digite um número: ");
+const numero = readline.questionInt("Digite um número: ");
 console.log(`O número ${numero} é ${ehParOuImpar(numero)}`);

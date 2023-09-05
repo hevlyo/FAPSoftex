@@ -1,9 +1,19 @@
 const express = require('express');
-const router = express.Router();
+const app = express.Router();
 
-router.get('/exemplo', (req, res) => {
-  res.json({ hello: 'Hello World!',
-  mensagem: 'Rota de exemplo GET' });
+app.get('/', (req, res) => {
+  res.json({
+    mensagem: 'Hello World!',
+    data: new Date()
+  });
 });
 
-module.exports = router;
+app.get('/dor', (req, res) => {
+  res.json({ mensagem: 'Nenhuma mensagem! apenas dor, only pain'});
+});
+
+app.get('/barra', (req, res) => {
+  res.json({ "barra": '//////////' });
+});
+
+module.exports = app;

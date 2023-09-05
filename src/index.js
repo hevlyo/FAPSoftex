@@ -4,8 +4,7 @@ const port = 3000;
 
 const rotas = require('./routes');
 
-app.use(express.json());
-app.use('/api', rotas);
+app.use('/', rotas); 
 
 app.listen(port, () => {
     console.log(`Servidor está rodando na porta ${port}`);

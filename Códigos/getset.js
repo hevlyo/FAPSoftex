@@ -37,7 +37,7 @@ class Pessoa {
     }
 }
 
-const pessoa = new Pessoa('João', 20);
+const pessoa = new Pessoa('Thayna', 20);
 console.log(pessoa.nome);
 console.log(pessoa.idade);
 pessoa.nome = 'Pedro';

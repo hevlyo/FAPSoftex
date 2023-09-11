@@ -14,14 +14,18 @@ utilizado?
 ## Resolução
 
 1. O pacote é o "lodash".
-2. O comando para instalar é "npm install lodash".
-3. O comando para importar é "const _ = require('lodash');".
+   
+2. O comando para instalar é ```javascript npm install lodash```.
+   
+3. O comando para importar é ```javascript const _ = require('lodash');```.
+   
 4. As funções utilizadas são: 
-chunk: Divide um array em pedaços menores
-concat: Concatena arrays.
+- chunk: Divide um array em pedaços menores
+- concat: Concatena arrays.
+  
 5. As arrays resultantes são:
-Primeiro array resultante: [23, 9] (chunk do primeiro array)
-Segundo array resultante: [4, 45] (chunk do primeiro array)
-Terceiro array resultante: [7, 12] (segundo array original)
-Quarto array resultante: [23, 9, 7, 12] (concatenação do primeiro array chunk com o segundo array original)
-Quinto array resultante: [4, 45, 7, 12] (concatenação do segundo array chunk com o segundo array original)
+- Primeiro array resultante: [23, 9] (chunk do primeiro array)
+- Segundo array resultante: [4, 45] (chunk do primeiro array)
+- Terceiro array resultante: [7, 12] (segundo array original)
+- Quarto array resultante: [23, 9, 7, 12] (concatenação do primeiro array chunk com o segundo array original)
+- Quinto array resultante: [4, 45, 7, 12] (concatenação do segundo array chunk com o segundo array original)

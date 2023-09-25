@@ -3,9 +3,7 @@ class Computer {
     getHDD() {}
     getCPU() {}
     getType() {}
-    toString() {
-        return this.getType() + ' -> ' + this.getRAM() + ', ' + this.getHDD() + ', ' + this.getCPU();
-    }
+    toString() {}
 }
 
 class PC extends Computer {
@@ -22,7 +20,7 @@ class PC extends Computer {
         return 'PC';
     }
     toString() {
-        return super.toString();
+        return this.getType() + ' -> ' + this.getRAM() + ', ' + this.getHDD() + ', ' + this.getCPU();
     }
 }
 
@@ -40,7 +38,7 @@ class Server extends Computer {
         return 'Server';
     }
     toString() {
-        return super.toString();
+        return this.getType() + ' -> ' + this.getRAM() + ', ' + this.getHDD() + ', ' + this.getCPU();
     }
 }
 
@@ -55,6 +53,8 @@ class ComputerFactory {
                 const server = new Server();
                 console.log(server.toString())
                 break;
+            default:
+                console.log('Invalid type of computer');
         }
     }
 }
@@ -63,3 +63,4 @@ const computerFactory = new ComputerFactory();
 
 computerFactory.createComputer('PC');
 computerFactory.createComputer('Server');
+computerFactory.createComputer('Laptop');

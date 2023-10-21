@@ -7,7 +7,8 @@
     "prompt-sync": "^4.2.0",
     "readline-sync": "^1.4.10",
     "sequelize": "^6.32.1",
-    "sequelize-cli": "^6.6.1"
+    "sequelize-cli": "^6.6.1",
+    "soap": "^1.0.0"
   },
   "name": "fapsoftex",
   "description": "Solucionando os problemas apresentados pelo programa na trilha Back-end.",
